@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Medical Appointments (TP10)</string>
+
+    <!-- Auth -->
+    <string name="login_title">Medical Appointments</string>
+    <string name="login_subtitle">Sign in to manage patient appointments</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="server_url_hint">API Base URL (e.g. http://10.0.2.2/tp10_api/)</string>
+    <string name="login_btn">Sign In</string>
+    <string name="register_btn">Register Account</string>
+    <string name="go_to_register">Don\'t have an account? Register here</string>
+    <string name="go_to_login">Already have an account? Login here</string>
+
+    <!-- Data Source Toggle -->
+    <string name="data_source_label">Data Source Mode:</string>
+    <string name="source_sqlite">Local SQLite</string>
+    <string name="source_web">PHP REST API (MySQL)</string>
+
+    <!-- Dashboard Main -->
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="add_appointment_btn">+ New Appointment</string>
+    <string name="statistics_btn">Statistics</string>
+    <string name="logout_btn">Logout</string>
+    <string name="appointments_header">Patient Appointments</string>
+    <string name="no_appointments">No medical appointments found.\nTap + New Appointment to add one.</string>
+
+    <!-- Add/Edit Form -->
+    <string name="add_appointment_title">New Medical Appointment</string>
+    <string name="first_name_hint">Patient First Name</string>
+    <string name="last_name_hint">Patient Last Name</string>
+    <string name="email_hint">Patient Email</string>
+    <string name="phone_hint">Patient Phone</string>
+    <string name="age_hint">Patient Age</string>
+    <string name="sex_label">Patient Sex:</string>
+    <string name="doctor_name_hint">Doctor Name</string>
+    <string name="specialty_label">Medical Specialty:</string>
+    <string name="date_hint">Select Date (YYYY-MM-DD)</string>
+    <string name="time_hint">Select Time (HH:MM)</string>
+    <string name="status_label">Status:</string>
+    <string name="notes_hint">Reason for visit / Notes</string>
+    <string name="save_appointment_btn">Save Appointment</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">Appointment Statistics</string>
+    <string name="total_appointments">Total Appointments</string>
+    <string name="status_breakdown">Status Breakdown</string>
+    <string name="sex_breakdown">Patient Breakdown by Sex</string>
+    <string name="specialty_breakdown">Breakdown by Specialty</string>
+
+    <!-- Spinners -->
+    <string-array name="sex_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="specialty_options">
+        <item>General Practice</item>
+        <item>Cardiology</item>
+        <item>Dermatology</item>
+        <item>Pediatrics</item>
+        <item>Orthopedics</item>
+        <item>Neurology</item>
+        <item>Ophthalmology</item>
+        <item>Psychiatry</item>
+    </string-array>
+
+    <string-array name="status_options">
+        <item>Scheduled</item>
+        <item>Confirmed</item>
+        <item>Completed</item>
+        <item>Cancelled</item>
+    </string-array>
+</resources>
